@@ -14,6 +14,6 @@ int findFactorial(int n)
 
 int main()
 {
-  int num = -3;
+  int num = 5;
   cout << findFactorial(num);
 }
