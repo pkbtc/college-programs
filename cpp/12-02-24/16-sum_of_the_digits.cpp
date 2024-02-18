@@ -13,7 +13,7 @@ void sum_of_digits(int *n){
 }
 
 int main (int argc, char *argv[]) {
-  int num = 25123; 
+  int num = 694201337; 
   sum_of_digits(&num);
   cout << "Sum of digits = " << num;
   return 0;
