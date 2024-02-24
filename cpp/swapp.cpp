@@ -10,10 +10,11 @@ void swap_num(int *n1, int *n2){
 }
 
 int main (int argc, char *argv[]) {
-  int num1 = 5, num2 =10;
-  cout << "num1 = " << num1 << " and " << "num2 = " << num2 << endl;
-
-  swap_num (&num1, &num2);
-  cout << "num1 = " << num1 << " and " << "num2 = " << num2 << endl;
+  int a = 7;
+  double *b;
+  // cout << b;
+  int c;
+  cout << b<< endl;
+  cout << b+2<< endl;
   return 0;
 }
